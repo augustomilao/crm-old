@@ -1,0 +1,62 @@
+.negrito{
+    font-weight: bold;
+}
+
+.menus{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 1em;
+}
+@media only screen and (max-width: 400px) {
+    .menus{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 1em;
+    }
+  }
+
+.centralizado{
+    text-align: center;
+}
+.ola{
+    padding: 0.8em 0 0 2em;
+    color: white;
+}
+.header{
+    height: 8vh;
+    width: 100%;
+    background-color: brown;
+    border-bottom: 1px solid black;
+}
+.gridmenu{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.centro{
+    text-align: center;
+}
+.tudo{
+    height: 92vh;
+}
+.menuside{
+    border-right: 1px solid black;
+}
+.opcao{
+    background-color: white;
+    color: black;
+}
+.menutitulo{
+    font-size: 20px;
+    margin: 0;
+    padding: 4px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+.area{
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+.pointer{
+    cursor: pointer;
+}
